@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ព័ត៏មានផ្ទាល់ខ្លួន</title>
+   <style>
+    
+      fieldset {
+            border: 2px solid #3f51b5;
+            border-radius: 4px;
+            margin-bottom: 20px;
+            padding: 15px;
+        }
+     legend {
+            color: #1a237e;
+            font-weight: bold;
+            padding: 0 10px;
+        }
+
+        input[type="text"],
+        input[type="date"],
+        input[type="email"],
+        input[type="password"],
+        select {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #a6a6a6;
+            border-radius: 3px;
+            box-sizing: border-box;
+            font-family: 'Khmer OS Battambang', sans-serif;
+        }
+        .checkbox-stack {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            margin-top: 5px;
+        }
+        
+        /* ប៊ូតុង */
+        .button-group {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 20px;
+        }
+          .btn {
+            font-family: 'Khmer OS Battambang', sans-serif;
+            padding: 8px 20px;
+            border: none;
+            color: white;
+            cursor: pointer;
+            font-size: 14px;
+            border-radius: 3px;
+        }
+         .btn-submit {
+            background-color: #00796b; /* ពណ៌បៃតង */
+        }
+         .btn-clear {
+            background-color: #d32f2f; /* ពណ៌ក្រហម */
+        }
+
+
+   </style>
+</head>
+<body>
+    
+    <form>
+        <fieldset >
+        <legend style="font-family: Khmer Os battambang; color: blue;">១. ព័ត៏មានផ្ទាល់ខ្លួន</legend>
+        <label for="" style="font-family: Khmer Os battambang;">ឈ្មោះពេញៈ</label><br>
+        <input type="text" id="fullname" style="font-family: Khmer Os battambang;" placeholder="បញ្ចូលឈ្មោះ"><bR><br>
+        <label for="dob" style="font-family: Khmer Os battambang;">ថ្ងៃខែឆ្នាំកំណើត៖</label><br>
+        <input type="date" id="dob"><br><br>
+        <label>ភេទ៖</label><br>
+        <input type="radio" name="" id=""> ប្រុស
+        <input type="radio" name="" id=""> ស្រី<br><br>
+        <label style="font-family: Khmer Os battambang;">ខេត្ត/រាជធានីកំណើតៈ</label><br>
+        <select id="pob">
+                    <option style="font-family: Khmer Os battambang;" value="">--- ជ្រើសរើសខេត្ត/រាជធានី ---</option>
+                    <option value="phnom-penh" style="font-family: Khmer Os battambang;">ភ្នំពេញ</option>
+                    <option value="kandal" style="font-family: Khmer Os battambang;"> កណ្តាល</option>
+                    <option value="battambang" style="font-family: Khmer Os battambang;">បាត់ដំបង</option>
+                    <option value="" style="font-family: Khmer Os battambang;">ប៉ៃលិន</option>
+                    <option value="" style="font-family: Khmer Os battambang;">បន្ទាយមានជ័យ</option>
+                    <option value="" style="font-family: Khmer Os battambang;">សៀមរាប</option>
+                    <option value="" style="font-family: Khmer Os battambang;">.ឱត្តរមានជ័យ</option>
+                    <option value="" style="font-family: Khmer Os battambang;">ព្រះវិហារ</option>
+                    <option value="" style="font-family: Khmer Os battambang;">ស្ទឹងត្រែង</option>
+                    <option value="" style="font-family: Khmer Os battambang;">រតនគិរី</option>
+                    <option value="" style="font-family: Khmer Os battambang;">មណ្ឌលគិរី</option>
+                    <option value="" style="font-family: Khmer Os battambang;">ក្រចេះ</option>
+                    <option value="" style="font-family: Khmer Os battambang;">កំពង់ធំ</option>
+                    <option value="" style="font-family: Khmer Os battambang;">កំពង់ចាម</option>
+                    <option value="" style="font-family: Khmer Os battambang;">ព្រៃវែង</option>
+                    <option value="" style="font-family: Khmer Os battambang;">កំពត</option>
+                    <option value="" style="font-family: Khmer Os battambang;">កែប</option>
+                    <option value="" style="font-family: Khmer Os battambang;">ព្រះសីហនុ</option>
+                    <option value="" style="font-family: Khmer Os battambang;">កំពង់ឆ្នាំង</option>
+                    <option value="" style="font-family: Khmer Os battambang;">ពោធ៏សាត់</option>
+                    <option value="" style="font-family: Khmer Os battambang;"> ត្បូងឃ្មុំ</option>
+                    <option value="" style="font-family: Khmer Os battambang;">ស្វាយរៀង</option>
+                     <option value="" style="font-family: Khmer Os battambang;">កោះកុង</option>
+                      <option value="" style="font-family: Khmer Os battambang;">តាកែវ</option>
+                    
+                    
+
+               </select>
+        </fieldset>
+    </form><br><br>
+   
+   
+    <form>
+        <fieldset>
+            <legend style="font-family: Khmer Os battambang; color: blue;">២. ព័ត៏មានការសិក្សា</legend>
+            <label for="" style="font-family: Khmer Os battambang;">ឆ្នាំសិក្សាៈ</label><br>
+            <select name="" id="">
+                <option value="" style="font-family: Khmer Os battambang;">ឆ្នាំទី ១</option>
+                <option value="" style="font-family: Khmer Os battambang;">ឆ្នាំទី ២</option>
+                <option value="" style="font-family: Khmer Os battambang;">ឆ្នាំទី ៣</option>
+                <option value="" style="font-family: Khmer Os battambang;">ឆ្នាំទី ៤</option>
+            </select><br><br>
+            <label for="" style="font-family: Khmer Os battambang;">ជំនាញដែលចូលចិត្ត</label><br>
+            <input type="checkbox">Web Dev<br>
+            <input type="checkbox">UI/UX Design<br>
+            <input type="checkbox">Networking<br>
+            
+        </fieldset>
+    </form><br><br>
+     
+    
+    <form>
+        <fieldset>
+            <legend style="font-family: Khmer Os battambang; color: blue;">៣. គណនីសុវត្ថិភាព</legend>
+            <label for="" style="font-family: Khmer Os battambang;">អុីមែលៈ</label><br>
+            <input type="text"  placeholder="example@email.com"><br><br>
+            <label for="" style="font-family: Khmer Os battambang;">លេខកូដសម្ងាត់ៈ</label><br>
+            <input type="text" placeholder="បញ្ចូលលេខសម្ងាត់">
+        </fieldset>
+         <div class="button-group">
+            <button type="submit" class="btn btn-submit">រក្សាទុក (Submit)</button>
+            <button type="reset" class="btn btn-clear">សម្អាត (Clear)</button>
+        </div>
+    </form>
+    
+</body>
+</html>
